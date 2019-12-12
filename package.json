@@ -1,0 +1,41 @@
+{
+    "name": "search-engine-nodejs",
+    "version": "1.0.8",
+    "description": "A nodejs module to extract links from Aol, Ask, Baidu,Google, Bing and Yahoo",
+    "main": "./lib/index.js",
+    "types": "./lib",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Binsar Dwi Jasuma",
+    "license": "ISC",
+    "dependencies": {
+        "@types/cheerio": "^0.22.15",
+        "@types/request": "^2.48.3",
+        "@types/request-promise-native": "^1.0.17",
+        "cheerio": "^1.0.0-rc.3",
+        "fake-useragent": "^1.0.1",
+        "install": "^0.13.0",
+        "nodejs-bing": "^0.1.0",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.8",
+        "urlencode": "^1.1.0"
+    },
+    "devDependencies": {
+        "typings": "^2.1.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/binsarjr/search-engine-nodejs.git"
+    },
+    "keywords": [
+        "search",
+        "search-engine",
+        "search-engine-scraper",
+        "search-engine-nodejs"
+    ],
+    "bugs": {
+        "url": "https://github.com/binsarjr/search-engine-nodejs/issues"
+    },
+    "homepage": "https://github.com/binsarjr/search-engine-nodejs#readme"
+}
